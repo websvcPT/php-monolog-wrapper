@@ -1,0 +1,21 @@
+{
+    "name": "websvc/php-monolog-wrapper",
+    "type": "library",
+    "description": "A PHP wrapper for monolog.",
+    "version": "1.0.0",
+    "require": {
+        "monolog/monolog": "^1.23"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nelson Dias",
+            "homepage": "https://github.com/websvcPT/php-monolog-wrapper"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PhpMonologWrapper\\": "src/"
+        }
+    }
+}
