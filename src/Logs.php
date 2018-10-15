@@ -30,6 +30,7 @@ class Logs {
         self::ALERT     => 'ALERT',
         self::EMERGENCY => 'EMERGENCY',
     );
+
 	/**
 	 * The monolog logger
 	 * @var type
